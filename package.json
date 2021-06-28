@@ -1,5 +1,5 @@
 {
-  "name": "@monarch/contracts",
+  "name": "@project-monarch/contracts",
   "version": "2.0.2",
   "license": "MIT",
   "description": "Arch Token + 🧑‍🌾 Liquidity Mining contracts for Project Monarch & the Monarch Protocol",
@@ -10,12 +10,12 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Project-Monarch/monarch-contracts.git"
+    "url": "git+https://github.com/Project-Monarch/project-monarch-contracts.git"
   },
   "bugs": {
-    "url": "https://github.com/Project-Monarch/monarch-contracts/issues"
+    "url": "https://github.com/Project-Monarch/project-monarch-contracts/issues"
   },
-  "homepage": "https://github.com/Project-Monarch/monarch-contracts#readme",
+  "homepage": "https://github.com/Project-Monarch/project-monarch-contracts#readme",
   "keywords": [
     "Project Monarch",
     "Arch",
@@ -39,9 +39,9 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^3.1.0",
-    "@monarch/core": "^2.0.0",
-    "@monarch/lib": "^2.0.0",
-    "@monarch/periphery": "^2.0.0"
+    "@project-monarch/core": "^2.0.0",
+    "@project-monarch/lib": "^2.0.0",
+    "@project-monarch/periphery": "^2.0.0"
   },
   "scripts": {
     "lint": "yarn prettier ./test/*.ts --check",
