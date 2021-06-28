@@ -1,8 +1,8 @@
 {
-  "name": "@lootswap/contracts",
+  "name": "@monarch/contracts",
   "version": "2.0.2",
   "license": "MIT",
-  "description": "Loot Token + 🧑‍🌾 Liquidity Mining contracts for LootSwap & the LootSwap Protocol",
+  "description": "Arch Token + 🧑‍🌾 Liquidity Mining contracts for Project Monarch & the Monarch Protocol",
   "files": [
     "contracts",
     "build"
@@ -10,15 +10,15 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LootSwap/lootswap-contracts.git"
+    "url": "git+https://github.com/Project-Monarch/monarch-contracts.git"
   },
   "bugs": {
-    "url": "https://github.com/LootSwap/lootswap-contracts/issues"
+    "url": "https://github.com/Project-Monarch/monarch-contracts/issues"
   },
-  "homepage": "https://github.com/LootSwap/lootswap-contracts#readme",
+  "homepage": "https://github.com/Project-Monarch/monarch-contracts#readme",
   "keywords": [
-    "LootSwap",
-    "loot",
+    "Project Monarch",
+    "Arch",
     "ethereum",
     "binance smart chain",
     "harmony"
@@ -39,9 +39,9 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^3.1.0",
-    "@lootswap/core": "^2.0.0",
-    "@lootswap/lib": "^2.0.0",
-    "@lootswap/periphery": "^2.0.0"
+    "@monarch/core": "^2.0.0",
+    "@monarch/lib": "^2.0.0",
+    "@monarch/periphery": "^2.0.0"
   },
   "scripts": {
     "lint": "yarn prettier ./test/*.ts --check",
