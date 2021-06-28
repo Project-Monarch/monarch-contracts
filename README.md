@@ -1,3 +1,3 @@
-# LootSwap
+# Project Monarch
 
 TODO: docs
